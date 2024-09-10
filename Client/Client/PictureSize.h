@@ -1,0 +1,40 @@
+#pragma once
+
+#define		PLAYER_WAIT_FCX		64
+#define		PLAYER_WAIT_FCY		76
+
+#define		PLAYER_READY_FCX	64
+#define		PLAYER_READY_FCY	86
+
+#define		PLAYER_TRAP_FCX		88
+#define		PLAYER_TRAP_FCY		144
+
+#define		PLAYER_DIE_FCX		88
+#define		PLAYER_DIE_FCY		144
+
+#define		WATER_BOMB_IDLE_FCX		56
+#define		WATER_BOMB_IDLE_FCY		54
+
+#define		WATER_CENTER_POP_FCX	52
+#define		WATER_CENTER_POP_FCY	52
+
+#define		WATER_SIDE_POP_FCX		52
+#define		WATER_SIDE_POP_FCY		52
+
+#define		PLAYER_COLLIDER_FCX		42
+#define		PLAYER_COLLIDER_FCY		42
+
+#define		PLAYER_TILE_COLLIDER_FCX	48
+#define		PLAYER_TILE_COLLIDER_FCY	48
+
+#define		TILE_FCX	52
+#define		TILE_FCY	52
+
+#define		TILE_OFFSET_FCX		10
+#define		TILE_OFFSET_FCY		14
+
+#define		BLOCK_TILE_FCX		68
+#define		BLOCK_TILE_FCY		67
+
+#define		WALL_TILE_FCX		55
+#define		WALL_TILE_FCY		69
