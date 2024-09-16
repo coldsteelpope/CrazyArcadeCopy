@@ -16,6 +16,14 @@ Socket Manager를 통해 서버와 통신합니다.
 ## 2. 게임 서버
 ### 2.1. 클라이언트 접속
 클라이언트가 서버에 접속하면 자동으로 게임이 실행됩니다.
+
+Session Manager를 사용해 클라이언트 정보를 세션으로 관리하고, 이를 리스트에 저장해 처리합니다.
 ![crazyArcadeServer](https://github.com/user-attachments/assets/6f8d4242-1293-407b-92a8-751432bcfc19)
+
+캐릭터가 생성되면, 해당 프로젝트의 프로토콜에 따라 세션(Session)을 생성합니다.
+
+이벤트 발생 시마다 세션을 업데이트합니다. 이후, 리스트에 있는 모든 소켓에 세션의 상태(Status)를 브로드캐스팅으로 전송합니다. 
+
+캐릭터가 사망하면 리스트에서 해당 캐릭터를 제거합니다.
 
 ![crazyArcadeMap](https://github.com/user-attachments/assets/b7c3d972-5e9a-4a1e-ab4f-c604095c3ca2)
